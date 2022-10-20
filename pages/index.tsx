@@ -29,7 +29,7 @@ export default function Home() {
 
       <div className="container mx-auto max-w-5xl my-20">
         <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          {data?.map((link) => (
+          {data.links?.map((link) => (
             <li key={link.id} className="shadow  max-w-md  rounded">
               <img className="shadow-sm" src={link.imageUrl} />
               <div className="p-5 flex flex-col space-y-2">
